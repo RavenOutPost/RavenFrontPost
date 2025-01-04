@@ -6,7 +6,11 @@ import { MainPage } from './component/main_page';
 export const App = () => {
   const [auth, setAuth] = useState(false)
 
-  useEffect(() => localStorage.getItem('token') ? setAuth(true) : null, [])
+  useEffect(()=>  {
+    if (localStorage.getItem) {
+      setAuth(true)
+    }
+  }, [])
 
 
 

@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { App } from './App';
+import { SnackbarProvider } from './component/snack_bar_context';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App />
+  <SnackbarProvider>
+  <App />
+</SnackbarProvider>,
 );
 
 

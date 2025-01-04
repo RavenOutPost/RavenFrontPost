@@ -4,8 +4,8 @@ import { auth } from '../api/api';
 export const LoginPage =  ({setAuth}) => {
 
 return (
-  <div class=' bg-white m-auto p-10 rounded-md shadow-md shadow-gray-800 w-1/2'>
-    <div class='text-4xl text-center w-full pb-10'>Se connecter</div>
+  <div class=' bg-white m-auto bottom-10 p-10 rounded-md shadow-md shadow-gray-800 w-1/2 mt-10'>
+    <div class='text-4xl text-center w-full px-10'>Se connecter</div>
 <Formik
 
   initialValues={{ name: '', password: '' }}
