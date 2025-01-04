@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RavenFrontPost/static/css/main.1c3cf207.css",
+    "main.js": "/RavenFrontPost/static/js/main.d60fc983.js",
+    "static/js/453.3ee04c98.chunk.js": "/RavenFrontPost/static/js/453.3ee04c98.chunk.js",
+    "static/media/bg.jpeg": "/RavenFrontPost/static/media/bg.118fe0bbd8f324a9da14.jpeg",
+    "index.html": "/RavenFrontPost/index.html",
+    "main.1c3cf207.css.map": "/RavenFrontPost/static/css/main.1c3cf207.css.map",
+    "main.d60fc983.js.map": "/RavenFrontPost/static/js/main.d60fc983.js.map",
+    "453.3ee04c98.chunk.js.map": "/RavenFrontPost/static/js/453.3ee04c98.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c3cf207.css",
+    "static/js/main.d60fc983.js"
+  ]
+}
