@@ -11,7 +11,6 @@ export const CustomerHeader = ({customer}) => {
       } else {
         result[data].push(d >= 7 ? 'aprèm' : 'matin')
       }
-      console.log('result => ', result)
     })
     return Object.entries(result).map((e) => <div>{e[0]} : {e[1].join()}</div>)
 }
