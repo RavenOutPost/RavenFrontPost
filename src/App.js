@@ -7,7 +7,7 @@ export const App = () => {
   const [auth, setAuth] = useState(false)
 
   useEffect(()=>  {
-    if (localStorage.getItem) {
+    if (localStorage.getItem('token')) {
       setAuth(true)
     }
   }, [])
